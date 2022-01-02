@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "gilroy";
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: blanchedalmond;
+    background-image: url(https://images.unsplash.com/photo-1505935428862-770b6f24f629?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1467&q=80);
+}
+
+h2 {
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#ip {
+    border-bottom: 2px solid black;
+    padding: 0px 5px;
+    border: none;
+}
+
+#ip {
+    position: absolute;
+    left: 44%;
+    top: 49%;
+}
+
+#uls {
+    position: absolute;
+    left: 45%;
+    top: 53%;
+}
+
+#overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.4);
+    /* background-color: red; */
+}
